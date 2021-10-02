@@ -1,0 +1,550 @@
+[
+    
+    
+  {
+    "name": "wink",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `wink` to the chat. Usually interpreted as 「 The user who used this commnd had winked 」.  May be used in a similar context to the emoji 😉.",
+    "parameters": [],
+    "examples": [
+      "wink"
+    ]
+  },
+  {
+    "name": "Punch",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `punch` to the chat. Usually interpreted as 「 The user who used this commnd punched (in anger) 」. ",
+    "parameters": [],
+    "examples": [
+      "punch"
+    ]
+  },
+  
+ 
+
+  {
+    "name": "cuddle",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Cuddle someone special.",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "cuddle @user"
+    ]
+  },
+  {
+    "name": "hug",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `hug` to the chat, directed towards the mentioned user, if there is any. Usually interpreted as 「 The user whom this command is directed to has been hugged 」. Use to indicate that you are / wanted to hug the mentioned user (context may vary). May be used in a similar context to the emoji 🤗.",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "hug @user"
+    ]
+  },
+  {
+    "name": "kill",
+    "aliases": [],
+    
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `kill` to the chat, directed towards the mentioned user, if there is any. Usually interpreted as 「 The user who used this command wants to kill the mentioned user 」. Use to indicate that you are / wanted to kill the mentioned user (context may vary). This is a roleplay command and is meant to be used as a joke, however, this will be limited to a nsfw channel due to sensitive nature of this command. Context should not include real crimes.",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "kill @user"
+    ]
+  },
+  {
+    "name": "kiss",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `kiss` to the chat, directed towards the mentioned user, if there is any. Usually interpreted as 「 The user whom this command is directed to has been kissed 」. Use to indicate that you are / wanted to kiss the mentioned user (context may vary). May be used in a similar context to the emoji 😘.",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "kiss @user"
+    ]
+  },
+      {
+    "name": "pat",
+    "aliases": [
+      "headpat"
+    ],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `pat` to the chat, directed towards the mentioned user, if there is any. Usually interpreted as 「 The user gave a headpat to the mentioned user 」. Use to indicate that you are / wanted to headpat the mentioned user (context may vary).",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "pat @user"
+    ]
+  },
+  
+  {
+    "name": "slap",
+    "aliases": [],
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "group": "action",
+    "description": "Sends a roleplay gif `slap` to the chat, directed towards the mentioned user, if there is any. Usually interpreted as 「 The user whom this command is directed to has been slapped 」. Use to indicate that you are / wanted to slap the mentioned user (context may vary).",
+    "parameters": [
+      "User Mention"
+    ],
+    "examples": [
+      "slap @user"
+    ]
+  },
+  
+  {
+    "name": "invite",
+    "aliases": [],
+    "guildOnly": true,
+    "group": "core",
+    "description": "Gives you the invite link",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "examples": [
+      "invite"
+    ]
+  },
+  {
+    "name": "Setchannel",
+    "aliases": [
+      "latency"
+    ],
+    "group": "utility",
+    "description": "Set a default channel for akane",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "parameters": [],
+    "examples": [
+      "setchannel #channel"
+    ]
+  },
+  
+  {
+    "name": "block",
+    "aliases": [],
+    "guildOnly": true,
+    "group": "utility",
+    "description": "Block a channel to restrict using of commands",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "parameters": [],
+    "examples": [
+      "block this",
+      "remove this"
+    ]
+  },
+  {
+    "name": "help",
+    "aliases": [
+      "cmd",
+      "command"
+    ],
+    "group": "core",
+    "description": "Sends a list of all commands from each specific command groups",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "parameters": [],
+    "examples": [
+      "help"
+    ]
+  },
+  {
+    "name": "translate",
+    "aliases": [],
+    "group": "core",
+    "description": "Translate in any command",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "parameters": [
+      "Command Name/Alias"
+    ],
+    "examples": [
+      "trans <language> [word]",
+      "trans french Hello guys!"
+    ]
+  },
+  
+  {
+    "name": "vote",
+    "aliases": ["v"],
+    "guildOnly": true,
+    "group": "core",
+    "description": "Vote Akane on Top.gg and get rewarded",
+    "clientPermissions": [
+      "EMBED_LINKS",
+      "ADD_REACTIONS"
+    ],
+    "parameters": [
+      "Suggestion Message"
+    ],
+    "examples": [
+      "vote." 
+    ]
+  },
+  
+  
+  
+  {
+    "name": "roll",
+    "aliases": [],
+    "group": "fun",
+    "description": "Generate a random number from 1-[selected number]",
+    "examples": [
+      "roll 10",
+      "roll 100",
+      "roll 1234567"
+    ]
+  },
+  {
+      "name": "meme",
+      "aliases": [],
+      "group": "fun",
+      "description": "Generate a random meme",
+      "examples": [
+        "meme"
+      ]
+    },
+    {
+      "name": "wiki",
+      "aliases": [],
+      "group": "fun",
+      "description": "search for wiki page",
+      "examples": [
+        "wiki Superman"
+      ]
+    },
+ 
+  {
+    "name": "eval",
+    "aliases": [],
+    "ownerOnly": true,
+    "group": "owner",
+    "description": "Evaluate arbitrary Javascript",
+    "parameters": [
+      "Javascript Code"
+    ],
+    "examples": [
+      "eval 1+1"
+    ]
+  },
+  {
+    "name": "leave",
+    "aliases": [
+      "forceleave",
+      "leaveguild",
+      "removeguild",
+      "leaveserver"
+    ],
+    "ownerOnly": true,
+    "group": "owner",
+    "description": "Force Akane to leave a server",
+    "parameters": [
+      "server ID",
+      "Reason"
+    ],
+    "examples": [
+      "fleave 728374657483920374"
+    ]
+  },
+  {
+    "name": "reload",
+    "aliases": [],
+    "ownerOnly": true,
+    "group": "owner",
+    "description": "Reloads a command",
+    "parameters": [
+      "command name/alias"
+    ],
+    "examples": [
+      "reload anime"
+    ]
+  },
+  
+  {
+    "name": "setprefix",
+    "aliases": [],
+    "guildOnly": true,
+    "adminOnly": true,
+    "group": "utility",
+    "description": "Set up custom prefix for this server.",
+    "requiresDatabase": true,
+    "parameters": [
+      "prefix"
+    ],
+    "examples": [
+      "prefix ?"
+    ]
+  },
+      
+  
+  {
+    "name": "collection",
+    "aliases": [
+      "registerbank"
+    ],
+    "group": "social",
+    "description": "Check your collected cards!",
+    "requiresDatabase": true,
+    "examples": [
+        "coll"
+    ]
+  },
+  
+  {
+    "name": "claim",
+    "aliases": [],
+    "group": "social",
+    "description": "Retrieve your daily reward <3",
+    "requiresDatabase": true,
+    "examples": [
+      "claim"
+    ]
+  },
+  {
+    "name": "burn",
+    "aliases": [],
+    "rankcommand": true,
+    "group": "social",
+    "description": "Deletes an item you own.",
+    "requiresDatabase": true,
+    "parameters": [
+      "item ID",
+      "name"
+    ],
+    "examples": [
+      "burn 1",
+      "burn Chloe"
+    ]
+  },
+      {
+    "name": "info",
+    "aliases": [
+      "info"
+    ],
+    "group": "social",
+    "description": "You can get info of your cards!",
+    "requiresDatabase": true,
+    "examples": [
+      "info Megumin"
+    ]
+  },
+  
+  {
+    "name": "inventory",
+    "aliases": [
+      "inv"
+    ],
+    "rankcommand": true,
+    "clientPermissions": [
+      "MANAGE_MESSAGES"
+    ],
+    "group": "social",
+    "description": "Check your items.",
+    "requiresDatabase": true,
+    "examples": [
+      "inventory",
+      "inv"
+    ]
+  },
+  
+  {
+    "name": "spawn",
+    "aliases": [],
+    "group": "social",
+    "description": "Spawn cards in the chat and collect them",
+    "requiresDatabase": true,
+    "examples": [
+      "spawn"
+    ]
+  },
+  {
+    "name": "give",
+    "aliases": [],
+    "rankcommand": true,
+    "clientPermissions": [
+      "MANAGE_MESSAGES"
+    ],
+    "group": "social",
+    "description": "give some of your items to the users.",
+    "parameters": [
+      "item ID",
+      "name"
+    ],
+    "examples": [
+      "give @user Megumin"
+    ]
+  },
+  
+  
+  {
+    "name": "trade",
+    "aliases": [
+      "trade"
+    ],
+    "guildOnly": true,
+    "group": "social",
+    "description": "Transfer some of your cards to your friends or trade them!",
+    "requiresDatabase": true,
+    "parameters": [
+      "User ID/Mention",
+      "Name"
+    ],
+    "examples": [
+      "trade @user Elizabeth"
+      
+    ]
+  },
+  
+  {
+    "name": "use",
+    "aliases": [
+      "equip"
+    ],
+    "rankcommand": true,
+    "clientPermissions": [
+      "MANAGE_MESSAGES"
+    ],
+    "group": "social",
+    "description": "Equips an item.",
+    "requiresDatabase": true,
+    "paramters": [
+      "item ID"
+    ],
+    "examples": [
+      "equip 67",
+      "use 15"
+    ]
+  },
+  {
+    "name": "annihilate",
+    "aliases": [],
+    "group": "social",
+    "description": "Remove or delete your inventory from the database!",
+    "requiresDatabase": true,
+    "parameters": [
+      "CAUTION"
+    ],
+    "examples": [
+      "annihilate"
+    ]
+  },
+  {
+    "name": "avatar",
+    "aliases": [
+      "av",
+      "pfp",
+      "displayprofile"
+    ],
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "group": "bot",
+    "description": "Shows avatar of the provided user, or yourself",
+    "parameters": [
+      "User Mention / ID"
+    ],
+    "examples": [
+      "avatar",
+      "av @user",
+      "pfp 728394857686950485"
+    ]
+  },
+  {
+      "name": "bot",
+      "aliases": [
+        
+      ],
+      "clientPermissions": [
+        "EMBED_LINKS"
+      ],
+      "group": "bot",
+      "description": "Search for an bot on google!",
+      "parameters": [
+        ""
+      ],
+      "examples": [
+        "image Dubai"
+      ]
+    },
+    {
+      "name": "gif",
+      "aliases": [
+        
+      ],
+      "clientPermissions": [
+        "EMBED_LINKS"
+      ],
+      "group": "bot",
+      "description": "Search for an gif !",
+      "parameters": [
+        ""
+      ],
+      "examples": [
+        "gif anime"
+      ]
+    },
+    {
+      "name": "lizard",
+      "aliases": [
+        
+      ],
+      "clientPermissions": [
+        "EMBED_LINKS"
+      ],
+      "group": "bot",
+      "description": "Generates an random lizard!",
+      "parameters": [
+        ""
+      ],
+      "examples": [
+        "lizard"
+      ]
+    }
+  
+]
